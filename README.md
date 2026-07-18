@@ -1,9 +1,9 @@
 # RKL Digital — Blog
 
-40 SEO- and GEO-optimized HTML articles plus a blog index for **RKL Digital** (rkldigital.com), the AI-first marketing agency for U.S. small businesses.
+48 SEO- and GEO-optimized HTML articles plus a blog index for **RKL Digital** (rkldigital.com), the AI-first marketing agency for U.S. small businesses.
 
 ## What's in here
-- **40 article pages** (`*.html`) across 6 topic clusters: AI SEO/GEO, traditional SEO, web design & conversion, marketing automation & email, strategy & ROI, and content/social/SaaS.
+- **48 article pages** (`*.html`) across 7 topic clusters: AI SEO/GEO, pricing & choosing an agency, traditional SEO, web design & conversion, marketing automation & email, strategy & ROI, and content/social/SaaS.
 - **`index.html`** — the blog hub, linking every post by category.
 - **`assets/rkl-blog.css`** — the shared stylesheet (keep it alongside the HTML).
 - **`_WRITER-SPEC.md`** — the content/template spec the posts were built from.
