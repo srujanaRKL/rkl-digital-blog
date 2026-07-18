@@ -1,0 +1,50 @@
+/* RKL Digital — supplemental styles for blog content components.
+   Loads AFTER style.css. Matches the site theme (--primary #003C82, --accent #F5A000, Public Sans). */
+.cs_post_details .rkl-answer{
+  background:#eef4fc;border-left:5px solid #003C82;border-radius:10px;
+  padding:22px 26px;margin:0 0 30px}
+.cs_post_details .rkl-answer .lbl{
+  display:block;text-transform:uppercase;letter-spacing:.08em;font-size:13px;
+  font-weight:800;color:#003C82;margin-bottom:8px}
+.cs_post_details .rkl-answer p{margin:0}
+
+.rkl-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}
+.rkl-stat{background:#eef4fc;border-radius:10px;padding:20px 16px;text-align:center}
+.rkl-stat b{display:block;font-size:30px;font-weight:800;color:#003C82;line-height:1.1}
+.rkl-stat span{font-size:14px;color:#5a6a7e}
+
+.rkl-callout{background:#fff7e8;border-left:5px solid #F5A000;border-radius:10px;
+  padding:16px 22px;margin:24px 0}
+.rkl-callout p:last-child{margin:0}
+
+.rkl-table-wrap{overflow-x:auto;margin:26px 0}
+.rkl-table-wrap table{width:100%;border-collapse:collapse;min-width:480px}
+.rkl-table-wrap th,.rkl-table-wrap td{padding:12px 15px;border-bottom:1px solid #e3e8f0;
+  text-align:left;vertical-align:top}
+.rkl-table-wrap th{background:#003C82;color:#fff;font-weight:700}
+.rkl-table-wrap tr:nth-child(even) td{background:#f6f9fd}
+
+.rkl-cta{background:#003C82;border-radius:14px;padding:30px 28px;margin:34px 0;text-align:center}
+.rkl-cta h3{color:#fff !important;margin:0 0 8px}
+.rkl-cta p{color:#cfe0f5;margin:0 0 18px}
+.rkl-cta .rkl-cta-btn{display:inline-block;background:#F5A000;color:#132033;font-weight:800;
+  padding:14px 30px;border-radius:6px;text-decoration:none;text-transform:uppercase;font-size:14px;letter-spacing:.03em}
+.rkl-cta .rkl-cta-btn:hover{background:#ffb524}
+.rkl-cta .rkl-cta-sub{font-size:14px;color:#cfe0f5;margin:14px 0 0}
+.rkl-cta .rkl-cta-sub a{color:#fff;text-decoration:underline}
+
+.rkl-faq{margin:28px 0}
+.rkl-faq details{border:1px solid #e3e8f0;border-radius:10px;padding:2px 20px;margin-bottom:12px;background:#fff}
+.rkl-faq summary{font-weight:700;color:#132033;cursor:pointer;padding:16px 0;list-style:none}
+.rkl-faq summary::-webkit-details-marker{display:none}
+.rkl-faq summary::after{content:"+";float:right;color:#003C82;font-weight:800}
+.rkl-faq details[open] summary::after{content:"\2013"}
+.rkl-faq p{padding-bottom:16px;margin:0}
+
+.rkl-related{border-top:1px solid #e3e8f0;margin-top:34px;padding-top:22px}
+.rkl-related h3{margin-top:0}
+.rkl-related ul{list-style:none;padding:0;margin:0}
+.rkl-related li{margin:.5em 0;padding-left:22px;position:relative}
+.rkl-related li::before{content:"\2192";position:absolute;left:0;color:#003C82;font-weight:800}
+
+@media(max-width:680px){.rkl-stats{grid-template-columns:1fr}}
